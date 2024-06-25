@@ -16,5 +16,5 @@ services :
     container_name: frontend
     depends_on:
     - backend
-     ports:
+    ports:
     - "80:80"
